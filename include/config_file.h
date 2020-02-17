@@ -32,6 +32,7 @@ typedef struct {
 	gchar *system_variant;
 	gchar *system_bootloader;
 	gchar *system_bb_statename;
+	gchar *custom_bootloader_backend;
 	/* maximum filesize to download in bytes */
 	guint64 max_bundle_download_size;
 	/* path prefix where rauc may create mount directories */
